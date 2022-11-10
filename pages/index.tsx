@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <div className='container mx-auto'>
-        <h2 className='text-red-500'>Hello nobig</h2>
+        <h2 className='text-themePrimary'>Hello nobig</h2>
       </div>
     </div>
   )
