@@ -27,7 +27,7 @@ const TodoDetails = async ({ params: { todoId } }: PageProps) => {
             <h2 className='text-center font-bold text-xl'>Todo Details Page {todo.id}</h2>
             <div className='flex justify-center mt-5'>
                 {/* details-card  */}
-                <div className='shadow w-fit px-10 py-6 bg-slate-300 rounded'>
+                <div className='shadow w-fit px-10 py-6 bg-slate-200 rounded'>
                     <p>Title: {todo.title}</p>
                     <p>Completed: {todo.completed ? 'Yes' : 'No'}</p>
                     <p>User: {todo.userId}</p>

@@ -27,7 +27,7 @@ const PostDetails = async ({ params: { postId } }: PageProps) => {
             <h2 className='text-center font-bold text-xl'>Post Details for post {post.id}</h2>
             <div className='flex justify-center mt-5'>
                 {/* details-card  */}
-                <div className='shadow w-fit px-10 py-6 bg-slate-300 rounded'>
+                <div className='shadow w-fit px-10 py-6 bg-slate-200 rounded'>
                     <p className='font-medium mb-2'>Title: {post.title}</p>
                     <p>Description: {post.body}</p>
                 </div>
